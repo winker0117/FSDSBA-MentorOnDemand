@@ -1,0 +1,31 @@
+<header>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-12 navbar navbar-expand-md navbar-dark " id="upbar">
+        <h4>
+            <i class="material-icons md-38"> MOD </i> Mentor On Demand
+        </h4>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        </button>
+        <ul class="navbar-nav  ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="register/">Register</a>
+            </li>
+            <li class="nav-item active" *ngIf="loggedIn() && this.authService.isTrainee " >
+              <a class="nav-link" routerLink="training/">Enrollment</a>
+            </li>
+            <li class="nav-item active" *ngIf="!loggedIn()">
+              <a class="nav-link" routerLink="login/">Login</a>
+            </li>
+            <li class="nav-item active" *ngIf="loggedIn()" (click)="this.authService.logout()">
+              <a class="nav-link" routerLink="login/">Logout</a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<router-outlet></router-outlet>
+<nav class="navbar navbar-expand-sm navbar-dark text-light navbar_bottom ">
+  <h4>Learning is Fun !!! </h4>
+</nav>
