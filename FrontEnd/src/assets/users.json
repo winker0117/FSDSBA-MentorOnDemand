@@ -1,0 +1,14 @@
+[
+    {
+        "username" : "dudu2020003@126.com",
+        "password" : "dudu2020003@126.com",
+        "name" : "Du Fu",
+        "status":"unblocked"
+    },
+    {
+        "username" : "shishi2020004@126.com",
+        "password" : "shishi2020004@126.com",
+        "name" : "Wang An Shi",
+        "status":"blocked"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Spring",
+        "titleTrainer": "Mrs.",
+        "trainer": "Mentor A",
+        "titleTrainee": "Mr.",
+        "trainee": "Li Bai",
+        "progress": "78%"
+    },
+    {
+        "name": "MySQL",
+        "titleTrainer": "Mr.",
+        "trainer": "Mentor B",
+        "titleTrainee": "Ms.",
+        "trainee": "Du Fu",
+        "progress": "37%"
+    }
+]

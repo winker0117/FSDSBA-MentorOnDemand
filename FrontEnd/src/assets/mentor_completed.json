@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Spring",
+        "title": "Mr.",
+        "trainee": "Zhang San",
+        "doc": "06 - 04 - 2019",
+        "rating": "8.8/10"
+    },
+    {
+        "name": "Angular",
+        "title": "Mr.",
+        "trainee": "Li Si",
+        "doc": "21 - 02 - 2019",
+        "rating": "8.9/10"
+    },
+    {
+        "name": "MySQL",
+        "title": "Mr.",
+        "trainee": "Wang Er",
+        "doc": "05 - 02 - 2019",
+        "rating": "8.8/10"
+    }
+]
